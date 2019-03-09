@@ -13,7 +13,7 @@ workflow "Push it!" {
 }
 
 action "push" {
-  uses = "ludeeus/actions/push@master"
+  uses = "ludeeus/action-push@master"
   env = {
     ACTION_MAIL = "octocat@octocat.org"
     ACTION_NAME = "octocat"
